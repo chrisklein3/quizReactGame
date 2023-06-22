@@ -1,0 +1,27 @@
+#welcome {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+#welcome h2,
+#welcome p {
+    margin-bottom: 1rem;
+}
+
+#welcome p {
+    color: rgb(168,135,110);
+}
+
+#welcome img {
+    max-width: 80%;
+    object-fit: contain;
+    align-self: center;
+}
+
+#welcome button {
+    border: 2px solid white;
+}

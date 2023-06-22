@@ -1,0 +1,28 @@
+#gameover {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+#gameover h2,
+#gameover p {
+    margin-bottom: 1rem;
+}
+
+#gameover p {
+    color: rgb(168,135,110);
+}
+
+#gameover img {
+    object-fit: contain;
+    max-width: 80%;
+    align-self: center;
+    height: 60%;
+}
+
+#gameover button {
+    border: 2px solid white;
+}

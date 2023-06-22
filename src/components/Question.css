@@ -1,0 +1,26 @@
+#question {
+    width: 85%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    justify-content: space-around;
+    background-color: rgb(168,135,110);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 2px solid white;
+}
+
+#question h2 {
+    margin-bottom: 2rem;
+}
+
+#question p {
+    color: white;
+
+}
+
+#question button {
+    border: 2px solid white;
+}

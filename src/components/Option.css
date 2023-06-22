@@ -1,0 +1,23 @@
+.option {
+    background-color: rgb(113,84,69);
+    border-radius: .5rem;
+    padding:  1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition:0.4s;
+}
+
+.option:hover{
+    opacity: 1;
+}
+
+.correct {
+    background-color: rgb(137, 180, 88);
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: rgb(35,26,17);
+    opacity: .4;
+}
